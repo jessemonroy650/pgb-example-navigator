@@ -7,23 +7,14 @@
         <!-- versionCode is optional and Android only -->
         <preference name="phonegap-version" value="cli-6.0.0" />
 
-        <name>Phonegap Generic Boilerplate</name>
-        <description>Simple Generic Boilerplate</description>
+        <name>Phonegap Build Example Navigator</name>
+        <description>Phonegap Build Example Navigator</description>
         <author href="http://bsdmasterindex.com" email="jessemonroy650@yahoo.com">
         Jesse Monroy
         </author>
 
         <!-- Android SECTION -->
         <platform name="android" />
-
-        <!-- iOS SECTION -->
-        <platform name="ios" />
-
-        <!-- winphone SECTION -->
-        <platform name="winphone" />
-
-        <!-- App requested permission -->
-        <preference name="permissions" value="none"/>
 
         <!-- PLUGINS PLUGINS -->
         <!-- device required so we can detect if we are using iOS -->
