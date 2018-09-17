@@ -1,2 +1,2 @@
 # pgb-example-navigator
-Phonegap Build Example using the base library from the "navigator" library in most webbrowser
+Phonegap Build Example using the "navigator" object available in most webbrowser

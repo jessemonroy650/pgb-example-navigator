@@ -37,16 +37,18 @@
         alert("button clicked.");
     }
     //
+    // Use the "navigator" object available in most webbrowser
+    // 
     function navigatorStuff() {
         var navigatorStuff = "" +
-        "<p class=a />navigator.appCodeName: "   + navigator.appCodeName +
-        "<p class=p />navigator.appName: "       + navigator.appName +
-        "<p class=a />navigator.appVersion: "    + navigator.appVersion +
-        "<p class=p />navigator.cookieEnabled: " + navigator.cookieEnabled +  
-        "<p class=a />navigator.language: "      + navigator.language +
-        "<p class=p />navigator.userAgent: "     + navigator.userAgent +
-        "<p class=a />navigator.platform: "      + navigator.platform + 
-        "<p class=p />navigator.onLine: "        + navigator.onLine;  
+        "<p class=a /><b>navigator.appCodeName:</b> "   + navigator.appCodeName +
+        "<p class=p /><b>navigator.appName:</b> "       + navigator.appName +
+        "<p class=a /><b>navigator.appVersion:</b> "    + navigator.appVersion +
+        "<p class=p /><b>navigator.cookieEnabled:</b> " + navigator.cookieEnabled +  
+        "<p class=a /><b>navigator.language:</b> "      + navigator.language +
+        "<p class=p /><b>navigator.userAgent:</b> "     + navigator.userAgent +
+        "<p class=a /><b>navigator.platform:</b> "      + navigator.platform + 
+        "<p class=p /><b>navigator.onLine:</b> "        + navigator.onLine;  
 
 		document.getElementById('navigatorStuff').innerHTML = navigatorStuff;
     }
