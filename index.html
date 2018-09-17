@@ -13,6 +13,12 @@
     .copyright {padding:5px;align:left;font-style:italic;font-size:small;}
     #header {margin:0;padding:0;}
     #exitApp {margin:1em;float:right;}
+    /* background colors */
+    .r {background-color:hsl(0,25%,75%);}   /* pastel-red */
+    .g {background-color:hsl(135,25%,75%);} /* pastel-gree */
+    .b {background-color:hsl(225,25%,75%);} /* pastel-blue */
+    .a {background-color:hsl(45,25%,75%);}  /* pastel-gold */
+    .p {background-color:hsl(270,25%,75%);} /* pastel-purple */
     </style>
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
 </head>
@@ -48,7 +54,8 @@
         "<p class=a /><b>navigator.language:</b> "      + navigator.language +
         "<p class=p /><b>navigator.userAgent:</b> "     + navigator.userAgent +
         "<p class=a /><b>navigator.platform:</b> "      + navigator.platform + 
-        "<p class=p /><b>navigator.onLine:</b> "        + navigator.onLine;  
+        "<p class=p /><b>navigator.onLine:</b> "        + navigator.onLine +
+        "<p class=a /><b>Java Enabled:</b> "            + navigator.javaEnabled();
 
 		document.getElementById('navigatorStuff').innerHTML = navigatorStuff;
     }
